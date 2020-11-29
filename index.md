@@ -1,9 +1,5 @@
 ## The Pólya urn
 
-You can use the [editor on GitHub](https://github.com/celestezeng33/practice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 Download the R codes [Here](https://github.com/celestezeng33/Polya_Urn_Model/blob/main/polya_urn.R) to change the initial numbers of black and red balls in the urn. 
 
 ### Introduction
