@@ -1,6 +1,6 @@
 ## The Pólya urn
 
-Download the R codes [Here](https://github.com/celestezeng33/Polya_Urn_Model/blob/main/polya_urn.R) to change the initial numbers of black and red balls in the urn. 
+Download the R codes [Here](https://github.com/celestezeng33/Polya_Urn_Model/raw/main/polya_urn.R) to change the initial numbers of black and red balls in the urn. 
 
 ### Introduction
 
