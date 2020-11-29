@@ -4,13 +4,15 @@ You can use the [editor on GitHub](https://github.com/celestezeng33/practice/edi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Download the R codes [Here](https://github.com/celestezeng33/Polya_Urn_Model/blob/main/polya_urn.R) to change the initial numbers of black and red balls in the urn. 
+
 ### Introduction
 
 A Pólya urn model usually works like this: 
+
 Start with an urn containing a black balls and b red balls initially.
-At each turn, pull out a ball uniformly at random, and then return it to the urn with another
-ball of the same color. 
-Count the number of black balls after n turns,
+At each turn, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
+Count the number of black balls after n turns, with 
 
 ```markdown
 Syntax highlighted code block
