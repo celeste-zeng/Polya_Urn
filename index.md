@@ -1,12 +1,16 @@
-## Welcome to GitHub Pages
+## The Pólya urn
 
 You can use the [editor on GitHub](https://github.com/celestezeng33/practice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Introduction
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+A Pólya urn model usually works like this: 
+Start with an urn containing a black balls and b red balls initially.
+At each turn, pull out a ball uniformly at random, and then return it to the urn with another
+ball of the same color. 
+Count the number of black balls after n turns,
 
 ```markdown
 Syntax highlighted code block
