@@ -23,8 +23,8 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-<img src="beta11.png" width="45%" height="45%"/> <img src="beta55.png" width="45%" height="45%"/>
-<img src="beta16.png" width="45%" height="45%"/> <img src="beta73.png" width="45%" height="45%"/>
+<img src="beta11.png" width="45%" height="45%"/>    <img src="beta55.png" width="45%" height="45%"/>
+<img src="beta16.png" width="45%" height="45%"/>    <img src="beta73.png" width="45%" height="45%"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
