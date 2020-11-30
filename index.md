@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-<img src="beta1_1.png" width="40%" height="40%"/>
+<img src="beta11.eps" width="40%" height="40%"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
