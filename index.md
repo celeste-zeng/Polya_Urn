@@ -1,12 +1,12 @@
-## Introduction
+### What is a Pólya urn?
 
-### A Pólya urn model usually works like this: 
+A Pólya urn model usually works like this: 
 
 Start with an urn containing a black balls and b red balls initially.
 At each draw, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
 Count the number of black balls and get the ratio of black balls after n draws. 
 
-## Long-term behavior of the Pólya urn
+### Long-term behavior of the Pólya urn
 
 Suppose an Pólya urn has 1 black ball and 1 red ball initially. After n draws, there are n+2 balls in the Pólya urn. 
 What is the ratio of black balls in the urn, for large n?
@@ -26,7 +26,7 @@ number of draws is random? If it is indeed random, can it possibly be associated
 It is a good idea to generate a even greater number of Pólya urns the same initial conditions and record the ratios of black balls in them after 1000 draws.
 Only by doing so can we discover its correlation with a specific distribution.
 
-## Asymptotic analysis of Pólya urns with the same initial conditions
+### Asymptotic analysis of Pólya urns with the same initial conditions
 
 <img src="beta11.png" width="45%" height="45%"/>    <img src="beta55.png" width="45%" height="45%"/>
 <img src="beta16.png" width="45%" height="45%"/>    <img src="beta73.png" width="45%" height="45%"/>
