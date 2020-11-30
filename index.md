@@ -4,7 +4,7 @@ A Pólya urn model usually works like this:
 
 Start with an urn containing a black balls and b red balls initially.
 At each draw, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
-Count the number of black balls and get the ratio of black balls after n draws. 
+Count the number of black balls and get the ratio of black balls in the urn after n draws. 
 
 ### Long-term behavior of the Pólya urn
 
@@ -27,6 +27,11 @@ It is a good idea to generate a even greater number of Pólya urns the same init
 Only by doing so can we discover its correlation with a specific distribution.
 
 ### Asymptotic analysis of Pólya urns with the same initial conditions
+
+In the 4 histograms below, we record the ratios of black balls after 1000 draws in 10,000 trials given 4 diffrent sets of initial conditions.
+
+The red curve represents the probability density function(pdf) of the corredponding Beta(a, b). 
+(a: initial number of black balls; b: initial number of black balls)
 
 <img src="beta11.png" width="45%" height="45%"/>    <img src="beta55.png" width="45%" height="45%"/>
 <img src="beta16.png" width="45%" height="45%"/>    <img src="beta73.png" width="45%" height="45%"/>
