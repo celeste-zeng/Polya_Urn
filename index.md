@@ -6,6 +6,13 @@ Start with an urn containing a black balls and b red balls initially.
 At each draw, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
 Count the number of black balls and get the ratio of black balls after n draws. 
 
+Suppose an Pólya urn has 1 black ball and 1 red ball initially. After n draws, there are n+2 balls in the Pólya urn. 
+What is the ratio of black balls in the urn, for large n?
+
+The 2 plots below record the changing ratio of black balls in the urn when n approaches 1000. 
+We can clearly see that in the first 100 draws, the ratio of black balls changes drastically.
+But after 200 draws, the ratio magically becomes stable and converges to a limit. 
+
 <img src="urn1.png" width="49%" height="60%"/>  <img src="urn2.png" width="49%" height="60%"/>
 
 ```markdown
