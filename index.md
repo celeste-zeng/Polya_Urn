@@ -3,10 +3,10 @@
 ### A Pólya urn model usually works like this: 
 
 Start with an urn containing a black balls and b red balls initially.
-At each turn, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
-Count the number of black balls and get the ratio of black balls after n turns. 
+At each draw, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
+Count the number of black balls and get the ratio of black balls after n draws. 
 
-<img src="urn1.png" width="45%" height="45%"/>    <img src="urn2.png" width="45%" height="45%"/>
+<img src="urn1.png" width="60%" height="60%"/>    <img src="urn2.png" width="60%" height="60%"/>
 
 ```markdown
 Syntax highlighted code block
