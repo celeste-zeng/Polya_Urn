@@ -24,7 +24,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 <img src="beta11.png" width="35%" height="35%"/> <img src="beta55.png" width="35%" height="35%"/>
-<img src="beta16.png" width="35%" height="35%"/> <img src="beta72.png" width="35%" height="35%"/>
+<img src="beta16.png" width="35%" height="35%"/> <img src="beta73.png" width="35%" height="35%"/>
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 Download the R codes [Here](https://downgit.github.io/#/home?url=https://github.com/celestezeng33/Polya_Urn_Model/blob/main/polya_urn.R) to change the initial numbers of black and red balls in the urn. 
