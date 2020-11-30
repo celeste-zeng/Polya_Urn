@@ -31,27 +31,13 @@ Only by doing so can we discover its correlation with a specific distribution.
 In the 4 histograms below, we record the ratios of black balls after 1000 draws in 10,000 trials given 4 diffrent sets of initial conditions.
 
 The red curve represents the probability density function(pdf) of the corredponding Beta(a, b). 
-(a: initial number of black balls; b: initial number of black balls)
+
+(a = initial number of black balls; b = initial number of red balls)
+
+In each graph, we can see that the overall shape of bins matches the pdf of the Beta(a, b).
+Therefore, graphs visualize how the ratio of blakc balls in the urn converges in distribution to the Beta distribution with same parameters after a huge number of trials.
 
 <img src="beta11.png" width="45%" height="45%"/>    <img src="beta55.png" width="45%" height="45%"/>
 <img src="beta16.png" width="45%" height="45%"/>    <img src="beta73.png" width="45%" height="45%"/>
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 Download the R codes [Here](https://downgit.github.io/#/home?url=https://github.com/celestezeng33/Polya_Urn_Model/blob/main/polya_urn.R) to change the initial numbers of black and red balls in the urn. 
