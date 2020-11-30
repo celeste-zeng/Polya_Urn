@@ -1,8 +1,6 @@
-## The Pólya urn
+## Introduction
 
-### Introduction
-
-A Pólya urn model usually works like this: 
+### A Pólya urn model usually works like this: 
 
 Start with an urn containing a black balls and b red balls initially.
 At each turn, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
