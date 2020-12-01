@@ -42,4 +42,4 @@ Reflecting on this conclusion, let's look back at the first 2 plots. The limit g
 
 [View](https://github.com/celestezeng33/Polya_Urn/blob/gh-pages/polya_urn.R) the R code for the Pólya urn on GitHub.
 
-Download the R codes [here](https://downgit.github.io/#/home?url=https://github.com/celestezeng33/Polya_Urn/blob/main/polya_urn.R) to change the initial numbers of black and red balls in the urn and generate different graphs. 
+Download the R codes [here](https://downgit.github.io/#/home?url=https://github.com/celestezeng33/Polya_Urn/blob/gh-pages/polya_urn.R) to change the initial numbers of black and red balls in the urn and generate different graphs. 
