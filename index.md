@@ -2,13 +2,13 @@
 
 A Pólya urn model usually works like this: 
 
-Start with an urn containing a black balls and b red balls initially.
+Start with an urn containing <b>a</b> black balls and <b>b</b> red balls initially.
 At each draw, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
-Count the number of black balls and get the ratios of black balls in the urn after n draws. 
+Count the number of black balls and get the ratio of black balls in the urn after n draws. 
 
 ### Long-term behavior of the Pólya urn
 
-Suppose a Pólya urn has 1 black ball and 1 red ball initially. After n draws, there are n+2 balls in the Pólya urn. 
+Suppose a Pólya urn has <b>a</b> = 1 black ball and <b>b</b> = 1 red ball initially. After n draws, there are n+2 balls in the Pólya urn. 
 What is the ratio of black balls in the urn, for large n?
 
 In 2 independent trials, the 2 plots below record the changing ratio of black balls in the urn when n approaches 1000. 
@@ -17,9 +17,7 @@ We can clearly see that in the first 100 draws, the ratio of black balls changes
 But after 200 draws, the ratio "magically" becomes stable and converges to a limit. 
 
 
-<img src="urn1.png" width="49%" height="60%"/>  <img src="urn2.png" width="49%" height="60%"/>
-
-Both trials have the exact same initial conditions(1 black ball and 1 red ball), but the limits to which each urn converges 
+Both trials have the exact same initial conditions (1 black ball and 1 red ball), but the limits to which each urn converges 
 are very different. Let us speculate boldly and more generally, for each Pólya urn with the same initial conditions, is the ratio of black balls after a large 
 number of draws random? If it is indeed random, can it possibly be associated with a known distribution?
 
@@ -28,7 +26,7 @@ Only by doing so can we discover its correlation with a specific distribution.
 
 ### Asymptotic analysis of Pólya urns with the same initial conditions
 
-In the 4 histograms below, we record the ratios of black balls after 1000 draws in 10,000 trials given 4 diffrrent sets of initial conditions.
+In the 4 histograms below, we record the ratios of black balls after 1000 draws in 10,000 trials given 4 different sets of initial conditions.
 
 The red curve represents the probability density function(pdf) of the corredponding Beta(a, b). (a = initial number of black balls; b = initial number of red balls)
 
