@@ -11,18 +11,18 @@ Count the number of black balls and get the ratio of black balls in the urn afte
 Suppose a Pólya urn has <b>a</b> = 1 black ball and <b>b</b> = 1 red ball initially. After n draws, there are n+2 balls in the Pólya urn. 
 What is the ratio of black balls in the urn, for large n?
 
-In 2 independent trials, the 2 plots below record the changing ratio of black balls in the urn when n approaches 1000. 
+In 5 independent trials, the plot below records the changing ratio of black balls in the urn when n approaches 1000 in each trial. Each line, labeled in different colors, represents one trial. 
 
 We can clearly see that in the first 100 draws, the ratio of black balls changes drastically.
 But after 200 draws, the ratio "magically" becomes stable and converges to a limit. 
 
+<img src="single_urn.png" width="80%" height="80%"/>
 
-Both trials have the exact same initial conditions (1 black ball and 1 red ball), but the limits to which each urn converges 
+These 5 trials have the exact same initial conditions (1 black ball and 1 red ball), but the limits to which each urn converges 
 are very different. Let us speculate boldly and more generally, for each Pólya urn with the same initial conditions, is the ratio of black balls after a large 
 number of draws random? If it is indeed random, can it possibly be associated with a known distribution?
 
-It is a good idea to generate an even greater number of Pólya urns with the same initial conditions and record the ratios of black balls in them after 1000 draws.
-Only by doing so can we discover its correlation with a specific distribution.
+It is a good idea to run many trials with the same initial conditions and discover the shape of a density from the resulting histogram.
 
 ### Asymptotic analysis of Pólya urns with the same initial conditions
 
