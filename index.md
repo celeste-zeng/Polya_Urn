@@ -40,7 +40,7 @@ Reflecting on this conclusion, let's look back at the first plot. The limit gene
 
 ### How is the Pólya urn model different from usual Markov chains? 
 
-Since only one ball is added in each draw and the initial condition is known, we only need to keep track of the current number of black balls in the urn before the next draw. Each draw is independent of the past, so the Pólya urn model is a Markov chain but it is not time-homogeneous. That is, the transition probabilities depend on the number of draws that have happened before. Thus, the usual theory of invariant distributions for irreducible, aperiodic Markov chains does not apply. Meanwhile, a usual Markov chain converges to a limiting distribution (its stationary distribution) but a Pólya urn converges to a limit, which is a number instead of a distribution. 
+Since only one ball is added in each draw and the initial condition is known, we only need to keep track of the current number of black balls in the urn before the next draw. Given the current numbers of balls of each color, the next move is independent of the past, so the Pólya urn model is a Markov chain but it is not time-homogeneous. That is, the transition probabilities depend on the number of draws that have happened before. Thus, the usual theory of invariant distributions for irreducible, aperiodic Markov chains does not apply. Meanwhile, a usual Markov chain converges to a limiting distribution (its stationary distribution) but a Pólya urn converges to a limit, which is a number instead of a distribution. 
 
 ### Additional Resources
 
