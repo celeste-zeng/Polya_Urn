@@ -6,6 +6,8 @@ Start with an urn containing **a** black balls and **b** red balls initially.
 At each draw, pull out a ball uniformly at random, and then return it to the urn with another ball of the same color. 
 Count the number of black balls and get the ratio of black balls in the urn after n draws. 
 
+<img src="urn.png" width="60%" height="60%"/>
+
 ### Long-term behavior of the Pólya urn
 
 Suppose a Pólya urn has **a** = 1 black ball and **b** = 1 red ball initially. After n draws, there are n+2 balls in the Pólya urn. 
